@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Project data and generated assets
+data/
+manuals/
+indexes/
+submissions/
+validation_outputs/
+logs/
+*.faiss
+*.pkl
+*.pdf
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
